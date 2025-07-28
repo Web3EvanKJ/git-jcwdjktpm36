@@ -1,16 +1,35 @@
-# git-jcwdjktpm36
+# 📚 Panduan Lengkap Git & GitHub
 
-# Git & GitHub - Ringkasan Cepat
+## 1. Apa Itu Git?
 
-## 🧠 Apa Itu?
+**Git** adalah sistem kontrol versi (Version Control System / VCS) yang digunakan untuk melacak perubahan pada file, terutama kode program. Git memungkinkan tim pengembang bekerja secara kolaboratif tanpa saling menimpa perubahan.
 
-- **Git**: Sistem kontrol versi untuk melacak perubahan kode.
-- **GitHub**: Platform online untuk menyimpan dan kolaborasi repo Git.
+### Kelebihan Git:
+- Distribusi penuh (setiap orang punya salinan lengkap repo)
+- Riwayat commit lengkap
+- Cepat, aman, dan fleksibel
+- Banyak digunakan di industri
 
 ---
 
-## ⚙️ Setup Awal
+## 2. Apa Itu GitHub?
 
+**GitHub** adalah layanan hosting repositori Git berbasis web yang menyediakan:
+- Penyimpanan cloud untuk project Git
+- Kolaborasi tim melalui pull request dan issue
+- GitHub Actions untuk CI/CD
+- Dokumentasi, diskusi, dan keamanan kode
+
+Alternatif lainnya: GitLab, Bitbucket, Codeberg
+
+---
+
+## 3. Instalasi Git
+
+### Windows
+- Unduh dari [https://git-scm.com](https://git-scm.com)
+- Install dengan opsi default
+
+### macOS
 ```bash
-git config --global user.name "Nama Anda"
-git config --global user.email "email@anda.com"
+brew install git
